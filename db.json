@@ -1,14 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "usuarios": [{
+    "id": 1,
+    "name": "Thiago Morais",
+    "email": "thiagomoraisrj@gmail.com",
+    "address": {
+      "street": "Est. da Uruçanga, 45,
+      "suite": "Bloco 2, Apto 204",
+      "city": "Rio de Janeiro",
+      "zipcode": "22750-030"
+    },
+    "phone": "(21)96856-2911"
+  }, {
+    "id": 2,
+    "name": "Matheus Lima",
+    "email": "matheuslima7@gmail.com",
+    "address": {
+      "street": "Av. Nuta James, 39",
+      "suite": "201",
+      "city": "Rio de Janeiro",
+      "zipcode": "22640-030"
+    },
+    "phone": "(21)99942-38501"
+  }, {
+    "id": 3,
+    "name": "Hugo Tostes",
+    "email": "huguinhojj@gmail.com",
+    "address": {
+      "street": "Av. Voluntários da Pátria, 290",
+      "suite": "Apto 605",
+      "city": "Rio de Janeiro",
+      "zipcode": "22270-003"
+    },
+    "phone": "(21)99675-5976"
+  },{
+    "id": 4,
+    "name": "Rayssa Freitas",
+    "email": "pqray@gmail.com",
+    "address": {
+      "street": "Av. Payssandu, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": "12456-789"
+    },
+    "phone": "(21)99978-7486"
+  },{
+    "id": 5,
+    "name": "Edson Robson",
+    "email": "edsontrabalho@gmail.com",
+    "address": {
+      "street": "Av. Alda Garrido, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": "22621-000"
+    },
+    "phone": "(21)98198-0675"
+  }]
 }
